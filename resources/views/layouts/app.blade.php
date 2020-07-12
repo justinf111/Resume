@@ -8,70 +8,6 @@
     <div class="relative bg-white overflow-hidden">
         <div class="max-w-screen-xl mx-auto ">
             <div class="relative z-10 pb-4 bg-white sm:pb-6 md:pb-10 lg:max-w-2xl lg:w-full lg:pb-12 xl:pb-16">
-                <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none">
-                    <polygon points="50,0 100,0 50,100 0,100" />
-                </svg>
-
-                <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
-                    <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start">
-                        <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-                            <div class="flex items-center justify-between w-full md:w-auto">
-                                <div class="-mr-2 flex items-center md:hidden">
-                                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out" id="main-menu" aria-label="Main menu" aria-haspopup="true">
-                                        <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hidden md:block md:ml-10 md:pr-4">
-                            <a href="#" class="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Product</a>
-                            <a href="#" class="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Features</a>
-                            <a href="#" class="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Marketplace</a>
-                            <a href="#" class="ml-8 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Company</a>
-                            <a href="#" class="ml-8 font-medium text-blue-600 hover:text-blue-900 transition duration-150 ease-in-out">Log in</a>
-                        </div>
-                    </nav>
-                </div>
-
-                <!--
-                  Mobile menu, show/hide based on menu open state.
-
-                  Entering: "duration-150 ease-out"
-                    From: "opacity-0 scale-95"
-                    To: "opacity-100 scale-100"
-                  Leaving: "duration-100 ease-in"
-                    From: "opacity-100 scale-100"
-                    To: "opacity-0 scale-95"
-                -->
-                <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-                    <div class="rounded-lg shadow-md">
-                        <div class="rounded-lg bg-white shadow-xs overflow-hidden" role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
-                            <div class="px-5 pt-4 flex items-center justify-between">
-                                <div class="-mr-2">
-                                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out" aria-label="Close menu">
-                                        <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="px-2 pt-2 pb-3">
-                                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">Product</a>
-                                <a href="#" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">Features</a>
-                                <a href="#" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">Marketplace</a>
-                                <a href="#" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">Company</a>
-                            </div>
-                            <div>
-                                <a href="#" class="block w-full px-5 py-3 text-center font-medium text-blue-600 bg-gray-50 hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:bg-gray-100 focus:text-blue-700 transition duration-150 ease-in-out" role="menuitem">
-                                    Log in
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <main class="mt-4 mx-auto max-w-screen-xl px-4 sm:mt-6 sm:px-6 md:mt-10 lg:mt-12 lg:px-8 xl:mt-16">
                     <div class="sm:text-center lg:text-left">
                         <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
@@ -80,7 +16,7 @@
                             <span class="text-blue-600 text-2xl sm:text-3xl">Full Stack Web Developer</span>
                         </h2>
                         <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+
                         </p>
                         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                             <div class="rounded-md shadow">
@@ -102,39 +38,54 @@
             <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="/img/justin.jpg" alt="justin"/>
         </div>
     </div>
-        <div class="bg-blue-400 py-10">
+        <div class="bg-gray-200 py-10">
             <div class="container mx-auto">
-                <!-- ... -->
-                <div class="md:flex">
-                    <div class="bg-white rounded-md shadow-lg ml-5 mr-4 mb-4 md:w-1/3">
-                        <div class="px-6 py-4">
+                <div class="text-2xl text-blue-600 font-bold mb-3 tracking-wide justify-center flex">
+                    <svg class="w-8 h-8 flex-shrink-0 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                        <path d="M14 5h2v14H4V5h2V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1zm3 0h1a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1V5zM3 5v14H2a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h1zm5-1v1h4V4H8z"/>
+                    </svg>
+                    Experience
+                </div>
+                <div class="md:flex md:flex-wrap">
+                    <div class="md:w-1/2 flex-col">
+                        <div class="px-6 py-4 ml-5 mr-4 mb-4 bg-white rounded-md shadow-lg">
+                            <div class="font-bold text-xs uppercase text-gray-700">Full Stack Web Developer</div>
+                            <div class="font-bold text-gray-900 text-xl tracking-wide">Blue Glue</div>
+                            <div class="text-gray-700 text-base mt-2">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies leo vel erat auctor vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere egestas dolor ac facilisis.
+                            </div>
+                            <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">March 2019 - Present</div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 flex-col">
+                        <div class="px-6 py-4  ml-5 mr-4 mb-4 bg-white rounded-md shadow-lg">
                             <div class="font-bold text-xs uppercase text-gray-700">Senior Web Developer</div>
                             <div class="font-bold text-gray-900 text-xl tracking-wide">Magicdust</div>
                             <div class="text-gray-700 text-base mt-2">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies leo vel erat auctor vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere egestas dolor ac facilisis.
                             </div>
-                            <div class="text-blue-700 mt-3 text-sm font-semibold">Mar 2018 - Dec 2018</div>
+                            <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">Mar 2018 - Dec 2018</div>
 
                         </div>
                     </div>
-                    <div class="bg-white rounded-md shadow-lg ml-5 mr-4 mb-4 md:w-1/3">
-                        <div class="px-6 py-4">
+                    <div class="md:w-1/2 flex-col">
+                        <div class="px-6 py-4 ml-5 mr-4 mb-4 bg-white rounded-md shadow-lg">
                             <div class="font-bold text-xs uppercase text-gray-700">Full Stack Web Developer</div>
                             <div class="font-bold text-gray-900 text-xl tracking-wide">Chocolate Coded</div>
                             <div class="text-gray-700 text-base mt-2">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies leo vel erat auctor vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere egestas dolor ac facilisis.
                             </div>
-                            <div class="text-blue-700 mt-3 text-sm font-semibold">Jun 2015 - Dec 2016</div>
+                            <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">Jun 2015 - Dec 2016</div>
                         </div>
                     </div>
-                    <div class="bg-white rounded-md shadow-lg ml-5 mr-4 mb-4 md:w-1/3">
-                        <div class="px-6 py-4">
+                    <div class="md:w-1/2 flex-col">
+                        <div class="px-6 py-4 ml-5 mr-4 mb-4 bg-white rounded-md shadow-lg">
                             <div class="font-bold text-xs uppercase text-gray-700">Wordpress/PHP Developer</div>
                             <div class="font-bold text-gray-900 text-xl tracking-wide">The Intermedia Group</div>
                             <div class="text-gray-700 text-base mt-2">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies leo vel erat auctor vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere egestas dolor ac facilisis.
                             </div>
-                            <div class="text-blue-700 mt-3 text-sm font-semibold">Sep 2013 - Mar 2015</div>
+                            <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">Sep 2013 - Mar 2015</div>
                         </div>
                     </div>
                 </div>
@@ -142,23 +93,29 @@
         </div>
         <div class="bg-gray-100 py-10">
             <div class="container mx-auto">
-                <div class="md:flex">
-                        <div class="bg-white rounded-md shadow-lg ml-5 mr-4 mb-4 md:w-1/3">
-                            <div class="px-6 py-4">
+                <div class="text-2xl text-blue-600 font-bold mb-3 tracking-wide justify-center flex">
+                    <svg class="w-8 h-8 flex-shrink-0 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                        <path d="M3.33 8L10 12l10-6-10-6L0 6h10v2H3.33zM0 8v8l2-2.22V9.2L0 8zm10 12l-5-3-2-1.2v-6l7 4.2 7-4.2v6L10 20z"/>
+                    </svg>
+                    Eduction
+                </div>
+                <div class="sm:flex sm:flex-wrap">
+                        <div class="sm:w-1/2 lg:w-1/3 flex-col">
+                            <div class="bg-white rounded-md shadow-lg ml-5 mr-4 mb-4 px-6 py-4">
                                 <div class="font-bold text-xs uppercase text-gray-700">Certificate 3 & 4 in Fitness</div>
                                 <div class="font-bold text-gray-900 text-xl tracking-wide">Australian Institute of Fitness</div>
-                                <div class="text-blue-700 mt-3 text-sm font-semibold">Nov 2016 - Feb 2017</div>
+                                <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">Nov 2016 - Feb 2017</div>
                             </div>
                         </div>
-                        <div class="bg-white rounded-md shadow-lg ml-5 mr-4 mb-4 md:w-1/3">
-                            <div class="px-6 py-4">
+                        <div class="sm:w-1/2 lg:w-1/3 flex-col">
+                            <div class="bg-white rounded-md shadow-lg ml-5 mr-4 mb-4 px-6 py-4">
                                 <div class="font-bold text-xs uppercase text-gray-700"> Bachelor of Science in Information Technology</div>
                                 <div class="font-bold text-gray-900 text-xl tracking-wide">University of Technology Sydney</div>
-                                <div class="text-blue-700 mt-3 text-sm font-semibold">2011 - 2013</div>
+                                <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">2011 - 2013</div>
                             </div>
                         </div>
-                        <div class="bg-white rounded-md shadow-lg ml-5 mr-4 mb-4 md:w-1/3">
-                            <div class="px-6 py-4">
+                        <div class="sm:w-1/2 lg:w-1/3 flex-col">
+                            <div class="bg-white rounded-md shadow-lg ml-5 mr-4 mb-4 px-6 py-4">
                                 <div class="font-bold text-xs uppercase text-gray-700">Diploma of Information Technology</div>
                                 <div class="font-bold text-gray-900 text-xl tracking-wide">UTS:Insearch</div>
                                 <div class="text-blue-700 mt-3 text-sm font-semibold">2010 - 2011</div>
@@ -168,53 +125,19 @@
                 </div>
             </div>
         </div>
-        <div class="bg-gray-100 py-10">
+        <div class="bg-gray-200 py-10">
             <div class="container mx-auto">
-                <div class="flex-wrap flex">
-                    <div class="w-1/2 mb-4 p-2">
-                        <div class="font-bold text-l">PHP</div>
-                        <div class="shadow w-full bg-gray-200">
-                            <div class="bg-blue-600 text-xs leading-none py-1 text-center text-white" style="width: 45%">45%</div>
-                        </div>
-                    </div>
-                    <div class="w-1/2 mb-4 p-2">
-                        <div class="font-bold text-l">Laravel</div>
-                        <div class="shadow w-full bg-gray-200">
-                            <div class="bg-blue-600 text-xs leading-none py-1 text-center text-white" style="width: 45%">45%</div>
-                        </div>
-                    </div>
-                    <div class="w-1/2 mb-4 p-2">
-                        <div class="font-bold text-l">VueJs</div>
-                        <div class="shadow w-full bg-gray-200">
-                            <div class="bg-blue-600 text-xs leading-none py-1 text-center text-white" style="width: 45%">45%</div>
-                        </div>
-                    </div>
-                    <div class="w-1/2 mb-4 p-2">
-                        <div class="font-bold text-l">Tailwind</div>
-                        <div class="shadow w-full bg-gray-200">
-                            <div class="bg-blue-600 text-xs leading-none py-1 text-center text-white" style="width: 45%">45%</div>
-                        </div>
-                    </div>
-                    <div class="w-1/2 mb-4 p-2">
-                        <div class="font-bold text-l">SASS</div>
-                        <div class="shadow w-full bg-gray-200">
-                            <div class="bg-blue-600 text-xs leading-none py-1 text-center text-white" style="width: 45%">45%</div>
-                        </div>
-                    </div>
-                    <div class="w-1/2 mb-4 p-2">
-                        <div class="font-bold text-l">HTML/CSS</div>
-                        <div class="shadow w-full bg-gray-200">
-                            <div class="bg-blue-600 text-xs leading-none py-1 text-center text-white w-2/3">45%</div>
-                        </div>
-                    </div>
+                <div class="sm:flex">
+                    <div></div>
+                    <div></div>
                 </div>
             </div>
         </div>
 
-    <div class="bg-gray-100 py-10">
-        <div class="container mx-auto">
+        <div class="bg-gray-100 py-10">
+            <div class="container mx-auto">
+            </div>
         </div>
-    </div>
     </body>
     <script src="{{ url('/js/app.js') }}"></script>
 </html>

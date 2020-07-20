@@ -20,7 +20,7 @@
                     </p>
                     <div class="mt-5 sm:mt-8 flex justify-center">
                         <div class="rounded-md shadow">
-                            <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                            <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500  transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
                                 <svg class="mr-2 w-4 h-4 flex-shrink-0 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                     <path d="M20 18.35V19a1 1 0 0 1-1 1h-2A17 17 0 0 1 0 3V1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8 8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 0 1 .99 1v3.35z"/>
                                 </svg>
@@ -106,13 +106,13 @@
             <div class="sm:flex sm:flex-wrap sm:-m-2">
                 <div class="w-full md:w-1/2">
                     <div class="p-2">
-                        <div class="mb-1 text-lg">PHP</div>
+                        <div class="mb-1 text-lg">Laravel</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
-                                <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 45%"></div>
+                                <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 85%"></div>
                             </div>
                             <div class="text-blue-700 text-sm font-bold">
-                                45%
+                                85%
                             </div>
                         </div>
                     </div>
@@ -122,88 +122,88 @@
                         <div class="mb-1 text-lg">PHP</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
-                                <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 45%"></div>
+                                <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 90%"></div>
                             </div>
                             <div class="text-blue-700 text-sm font-bold">
-                                45%
+                                90%
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
                     <div class="p-2">
-                        <div class="mb-1 text-lg">PHP</div>
+                        <div class="mb-1 text-lg">Tailwind</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
-                                <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 45%"></div>
+                                <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 65%"></div>
                             </div>
                             <div class="text-blue-700 text-sm font-bold">
-                                45%
+                                65%
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
                     <div class="p-2">
-                        <div class="mb-1 text-lg">PHP</div>
+                        <div class="mb-1 text-lg">VueJs</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
-                                <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 45%"></div>
+                                <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 60%"></div>
                             </div>
                             <div class="text-blue-700 text-sm font-bold">
-                                45%
+                                60%
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
                     <div class="p-2">
-                        <div class="mb-1 text-lg">PHP</div>
+                        <div class="mb-1 text-lg">HTML/CSS</div>
                         <div class="flex items-center">
-                            <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
-                                <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 45%"></div>
+                            <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r md:h-full">
+                                <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 90%"></div>
                             </div>
                             <div class="text-blue-700 text-sm font-bold">
-                                45%
+                                90%
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
                     <div class="p-2">
-                        <div class="mb-1 text-lg">PHP</div>
+                        <div class="mb-1 text-lg">Jquery</div>
                         <div class="flex items-center">
-                            <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
-                                <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 45%"></div>
+                            <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r md:h-full">
+                                <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 80%"></div>
                             </div>
                             <div class="text-blue-700 text-sm font-bold">
-                                45%
+                                80%
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
                     <div class="p-2">
-                        <div class="mb-1 text-lg">PHP</div>
+                        <div class="mb-1 text-lg">MySQL</div>
                         <div class="flex items-center">
-                            <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
-                                <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 45%"></div>
+                            <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r md:h-full">
+                                <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 70%"></div>
                             </div>
                             <div class="text-blue-700 text-sm font-bold">
-                                45%
+                                70%
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
                     <div class="p-2">
-                        <div class="mb-1 text-lg">PHP</div>
+                        <div class="mb-1 text-lg">Postgres</div>
                         <div class="flex items-center">
-                            <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
-                                <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 45%"></div>
+                            <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r md:h-full">
+                                <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 60%"></div>
                             </div>
                             <div class="text-blue-700 text-sm font-bold">
-                                45%
+                                60%
                             </div>
                         </div>
                     </div>
@@ -221,21 +221,21 @@
                 </div>
                 <div class="sm:flex sm:flex-wrap sm:-m-2">
                         <div class="sm:w-1/2 lg:w-1/3 flex-col p-2">
-                            <div class="bg-white rounded-md shadow-lg px-6 py-4">
+                            <div class="bg-white rounded-md shadow-lg px-6 py-4 sm:h-full">
                                 <div class="font-bold text-xs uppercase text-gray-700">Certificate 3 & 4 in Fitness</div>
                                 <div class="font-bold text-gray-900 text-xl tracking-wide">Australian Institute of Fitness</div>
                                 <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">Nov 2016 - Feb 2017</div>
                             </div>
                         </div>
                         <div class="sm:w-1/2 lg:w-1/3 flex-col p-2">
-                            <div class="bg-white rounded-md shadow-lg px-6 py-4">
+                            <div class="bg-white rounded-md shadow-lg px-6 py-4 sm:h-full">
                                 <div class="font-bold text-xs uppercase text-gray-700"> Bachelor of Science in Information Technology</div>
                                 <div class="font-bold text-gray-900 text-xl tracking-wide">University of Technology Sydney</div>
                                 <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">2011 - 2013</div>
                             </div>
                         </div>
                         <div class="sm:w-1/2 lg:w-1/3 flex-col p-2">
-                            <div class="bg-white rounded-md shadow-lg px-6 py-4">
+                            <div class="bg-white rounded-md shadow-lg px-6 py-4 sm:h-full">
                                 <div class="font-bold text-xs uppercase text-gray-700">Diploma of Information Technology</div>
                                 <div class="font-bold text-gray-900 text-xl tracking-wide">UTS:Insearch</div>
                                 <div class="text-blue-700 mt-3 text-sm font-semibold">2010 - 2011</div>

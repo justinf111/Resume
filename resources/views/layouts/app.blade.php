@@ -9,7 +9,7 @@
         <div class="max-w-screen-xl mx-auto ">
             <div class="relative z-10 p-16">
                 <div class="text-center">
-                    <img src="/img/justin.jpg" class="w-24 h-24 rounded-full border-4 text-center border-white object-cover" alt="">
+                    <img src="/img/justin.jpg" class="w-24 h-24 mx-auto rounded-full border-4 text-center border-black object-cover" alt="">
                     <span class="text-blue-700 text-2xl sm:text-3xl font-semibold">Hi this is</span>
                     <br/>
                     <h2 class="tracking-tight leading-10 font-extrabold text-gray-900 text-5xl sm:text-6xl">Justin Favaloro</h2>

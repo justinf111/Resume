@@ -51,7 +51,7 @@
                     Experience
                 </div>
                 <div class="md:flex md:flex-wrap  md:-m-2">
-                    <div class="md:w-1/2 flex-col">
+                    <div class="md:w-1/2 flex-col p-2">
                         <div class="px-6 py-4 p-2 bg-white rounded-md shadow-lg">
                             <div class="font-bold text-xs uppercase text-gray-700">Full Stack Web Developer</div>
                             <div class="font-bold text-gray-900 text-xl tracking-wide">Blue Glue</div>
@@ -61,7 +61,7 @@
                             <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">March 2019 - Present</div>
                         </div>
                     </div>
-                    <div class="md:w-1/2 flex-col">
+                    <div class="md:w-1/2 flex-col p-2">
                         <div class="px-6 py-4  p-2 bg-white rounded-md shadow-lg">
                             <div class="font-bold text-xs uppercase text-gray-700">Senior Web Developer</div>
                             <div class="font-bold text-gray-900 text-xl tracking-wide">Magicdust</div>
@@ -72,7 +72,7 @@
 
                         </div>
                     </div>
-                    <div class="md:w-1/2 flex-col">
+                    <div class="md:w-1/2 flex-col p-2">
                         <div class="px-6 py-4 p-2 bg-white rounded-md shadow-lg">
                             <div class="font-bold text-xs uppercase text-gray-700">Full Stack Web Developer</div>
                             <div class="font-bold text-gray-900 text-xl tracking-wide">Chocolate Coded</div>
@@ -82,7 +82,7 @@
                             <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">Jun 2015 - Dec 2016</div>
                         </div>
                     </div>
-                    <div class="md:w-1/2 flex-col">
+                    <div class="md:w-1/2 flex-col p-2">
                         <div class="px-6 py-4 p-2 bg-white rounded-md shadow-lg">
                             <div class="font-bold text-xs uppercase text-gray-700">Wordpress/PHP Developer</div>
                             <div class="font-bold text-gray-900 text-xl tracking-wide">The Intermedia Group</div>
@@ -220,21 +220,21 @@
                     Eduction
                 </div>
                 <div class="sm:flex sm:flex-wrap sm:-m-2">
-                        <div class="sm:w-1/2 lg:w-1/3 flex-col">
+                        <div class="sm:w-1/2 lg:w-1/3 flex-col p-2">
                             <div class="bg-white rounded-md shadow-lg p-2">
                                 <div class="font-bold text-xs uppercase text-gray-700">Certificate 3 & 4 in Fitness</div>
                                 <div class="font-bold text-gray-900 text-xl tracking-wide">Australian Institute of Fitness</div>
                                 <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">Nov 2016 - Feb 2017</div>
                             </div>
                         </div>
-                        <div class="sm:w-1/2 lg:w-1/3 flex-col">
+                        <div class="sm:w-1/2 lg:w-1/3 flex-col p-2">
                             <div class="bg-white rounded-md shadow-lg p-2">
                                 <div class="font-bold text-xs uppercase text-gray-700"> Bachelor of Science in Information Technology</div>
                                 <div class="font-bold text-gray-900 text-xl tracking-wide">University of Technology Sydney</div>
                                 <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">2011 - 2013</div>
                             </div>
                         </div>
-                        <div class="sm:w-1/2 lg:w-1/3 flex-col">
+                        <div class="sm:w-1/2 lg:w-1/3 flex-col p-2">
                             <div class="bg-white rounded-md shadow-lg p-2">
                                 <div class="font-bold text-xs uppercase text-gray-700">Diploma of Information Technology</div>
                                 <div class="font-bold text-gray-900 text-xl tracking-wide">UTS:Insearch</div>

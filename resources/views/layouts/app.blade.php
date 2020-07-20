@@ -221,21 +221,21 @@
                 </div>
                 <div class="sm:flex sm:flex-wrap sm:-m-2">
                         <div class="sm:w-1/2 lg:w-1/3 flex-col p-2">
-                            <div class="bg-white rounded-md shadow-lg p-2">
+                            <div class="bg-white rounded-md shadow-lg px-6 py-4">
                                 <div class="font-bold text-xs uppercase text-gray-700">Certificate 3 & 4 in Fitness</div>
                                 <div class="font-bold text-gray-900 text-xl tracking-wide">Australian Institute of Fitness</div>
                                 <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">Nov 2016 - Feb 2017</div>
                             </div>
                         </div>
                         <div class="sm:w-1/2 lg:w-1/3 flex-col p-2">
-                            <div class="bg-white rounded-md shadow-lg p-2">
+                            <div class="bg-white rounded-md shadow-lg px-6 py-4">
                                 <div class="font-bold text-xs uppercase text-gray-700"> Bachelor of Science in Information Technology</div>
                                 <div class="font-bold text-gray-900 text-xl tracking-wide">University of Technology Sydney</div>
                                 <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">2011 - 2013</div>
                             </div>
                         </div>
                         <div class="sm:w-1/2 lg:w-1/3 flex-col p-2">
-                            <div class="bg-white rounded-md shadow-lg p-2">
+                            <div class="bg-white rounded-md shadow-lg px-6 py-4">
                                 <div class="font-bold text-xs uppercase text-gray-700">Diploma of Information Technology</div>
                                 <div class="font-bold text-gray-900 text-xl tracking-wide">UTS:Insearch</div>
                                 <div class="text-blue-700 mt-3 text-sm font-semibold">2010 - 2011</div>
@@ -261,10 +261,10 @@
                                 <input type="text" placeholder="Name" name="name" class="rounded-md border-gray-300 w-full py-3 px-4">
                             </div>
                             <div class="sm:flex">
-                                <div class="mb-2 mr-3 w-1/2">
+                                <div class="mb-2 sm:mr-3 sm:w-1/2">
                                     <input type="email" placeholder="Email" name="email" class="rounded-md border-gray-300 w-full py-3 px-4">
                                 </div>
-                                <div class="mb-2 w-1/2">
+                                <div class="mb-2 sm:w-1/2">
                                     <input type="text" placeholder="Phone" name="phone" class="rounded-md border-gray-300 w-full py-3 px-4">
                                 </div>
                             </div>

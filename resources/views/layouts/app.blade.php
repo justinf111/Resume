@@ -50,9 +50,9 @@
                     </svg>
                     Experience
                 </div>
-                <div class="md:flex md:flex-wrap">
+                <div class="md:flex md:flex-wrap  md:-m-2">
                     <div class="md:w-1/2 flex-col">
-                        <div class="px-6 py-4 ml-5 mr-4 mb-4 bg-white rounded-md shadow-lg">
+                        <div class="px-6 py-4 p-2 bg-white rounded-md shadow-lg">
                             <div class="font-bold text-xs uppercase text-gray-700">Full Stack Web Developer</div>
                             <div class="font-bold text-gray-900 text-xl tracking-wide">Blue Glue</div>
                             <div class="text-gray-700 text-base mt-2">
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                     <div class="md:w-1/2 flex-col">
-                        <div class="px-6 py-4  ml-5 mr-4 mb-4 bg-white rounded-md shadow-lg">
+                        <div class="px-6 py-4  p-2 bg-white rounded-md shadow-lg">
                             <div class="font-bold text-xs uppercase text-gray-700">Senior Web Developer</div>
                             <div class="font-bold text-gray-900 text-xl tracking-wide">Magicdust</div>
                             <div class="text-gray-700 text-base mt-2">
@@ -73,7 +73,7 @@
                         </div>
                     </div>
                     <div class="md:w-1/2 flex-col">
-                        <div class="px-6 py-4 ml-5 mr-4 mb-4 bg-white rounded-md shadow-lg">
+                        <div class="px-6 py-4 p-2 bg-white rounded-md shadow-lg">
                             <div class="font-bold text-xs uppercase text-gray-700">Full Stack Web Developer</div>
                             <div class="font-bold text-gray-900 text-xl tracking-wide">Chocolate Coded</div>
                             <div class="text-gray-700 text-base mt-2">
@@ -83,7 +83,7 @@
                         </div>
                     </div>
                     <div class="md:w-1/2 flex-col">
-                        <div class="px-6 py-4 ml-5 mr-4 mb-4 bg-white rounded-md shadow-lg">
+                        <div class="px-6 py-4 p-2 bg-white rounded-md shadow-lg">
                             <div class="font-bold text-xs uppercase text-gray-700">Wordpress/PHP Developer</div>
                             <div class="font-bold text-gray-900 text-xl tracking-wide">The Intermedia Group</div>
                             <div class="text-gray-700 text-base mt-2">
@@ -103,9 +103,9 @@
                 </svg>
                 Skills
             </div>
-            <div class="sm:flex sm:flex-wrap">
+            <div class="sm:flex sm:flex-wrap sm:-m-2">
                 <div class="w-full md:w-1/2">
-                    <div class="ml-5 mr-4 mb-4">
+                    <div class="p-2">
                         <div class="mb-1 text-lg">PHP</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
@@ -118,7 +118,7 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
-                    <div class="ml-5 mr-4 mb-4">
+                    <div class="p-2">
                         <div class="mb-1 text-lg">PHP</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
@@ -131,7 +131,7 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
-                    <div class="ml-5 mr-4 mb-4">
+                    <div class="p-2">
                         <div class="mb-1 text-lg">PHP</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
@@ -144,7 +144,7 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
-                    <div class="ml-5 mr-4 mb-4">
+                    <div class="p-2">
                         <div class="mb-1 text-lg">PHP</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
@@ -157,7 +157,7 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
-                    <div class="ml-5 mr-4 mb-4">
+                    <div class="p-2">
                         <div class="mb-1 text-lg">PHP</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
@@ -170,7 +170,7 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
-                    <div class="ml-5 mr-4 mb-4">
+                    <div class="p-2">
                         <div class="mb-1 text-lg">PHP</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
@@ -183,7 +183,7 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
-                    <div class="ml-5 mr-4 mb-4">
+                    <div class="p-2">
                         <div class="mb-1 text-lg">PHP</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
@@ -196,7 +196,7 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
-                    <div class="ml-5 mr-4 mb-4">
+                    <div class="p-2">
                         <div class="mb-1 text-lg">PHP</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
@@ -219,23 +219,23 @@
                     </svg>
                     Eduction
                 </div>
-                <div class="sm:flex sm:flex-wrap">
+                <div class="sm:flex sm:flex-wrap sm:-m-2">
                         <div class="sm:w-1/2 lg:w-1/3 flex-col">
-                            <div class="bg-white rounded-md shadow-lg ml-5 mr-4 mb-4 px-6 py-4">
+                            <div class="bg-white rounded-md shadow-lg p-2">
                                 <div class="font-bold text-xs uppercase text-gray-700">Certificate 3 & 4 in Fitness</div>
                                 <div class="font-bold text-gray-900 text-xl tracking-wide">Australian Institute of Fitness</div>
                                 <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">Nov 2016 - Feb 2017</div>
                             </div>
                         </div>
                         <div class="sm:w-1/2 lg:w-1/3 flex-col">
-                            <div class="bg-white rounded-md shadow-lg ml-5 mr-4 mb-4 px-6 py-4">
+                            <div class="bg-white rounded-md shadow-lg p-2">
                                 <div class="font-bold text-xs uppercase text-gray-700"> Bachelor of Science in Information Technology</div>
                                 <div class="font-bold text-gray-900 text-xl tracking-wide">University of Technology Sydney</div>
                                 <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">2011 - 2013</div>
                             </div>
                         </div>
                         <div class="sm:w-1/2 lg:w-1/3 flex-col">
-                            <div class="bg-white rounded-md shadow-lg ml-5 mr-4 mb-4 px-6 py-4">
+                            <div class="bg-white rounded-md shadow-lg p-2">
                                 <div class="font-bold text-xs uppercase text-gray-700">Diploma of Information Technology</div>
                                 <div class="font-bold text-gray-900 text-xl tracking-wide">UTS:Insearch</div>
                                 <div class="text-blue-700 mt-3 text-sm font-semibold">2010 - 2011</div>
@@ -255,8 +255,8 @@
                     Contact
                 </div>
                 <div class="sm:flex">
-                    <div class="sm:w-1/2">
-                        <div class="ml-5 mr-4 mb-4">
+                    <div class="sm:w-1/2 sm:-m-2">
+                        <div class="p-2">
                             <div class="mb-2">
                                 <input type="text" placeholder="Name" name="name" class="rounded-md border-gray-300 w-full py-3 px-4">
                             </div>

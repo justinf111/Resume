@@ -20,7 +20,7 @@
                     </p>
                     <div class="mt-5 sm:mt-8 flex justify-center">
                         <div class="rounded-md shadow">
-                            <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500  transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                            <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500  transition duration-150 ease-in-out md:py-4 md:text-md uppercase text-gray-900 font-semibold md:px-10">
                                 <svg class="mr-2 w-4 h-4 flex-shrink-0 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                     <path d="M20 18.35V19a1 1 0 0 1-1 1h-2A17 17 0 0 1 0 3V1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8 8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 0 1 .99 1v3.35z"/>
                                 </svg>
@@ -28,7 +28,7 @@
                             </a>
                         </div>
                         <div class="mt-0 ml-3">
-                            <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-blue-700 bg-blue-100 hover:text-blue-600 hover:bg-blue-50 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                            <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-blue-700 bg-blue-100 hover:text-blue-600 hover:bg-blue-50 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out md:py-4 md:text-md uppercase text-gray-900 font-semibold md:px-10">
                                 <svg class="mr-2 w-5 h-5 flex-shrink-0 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                     <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/>
                                 </svg>
@@ -106,7 +106,7 @@
             <div class="sm:flex sm:flex-wrap sm:-m-2">
                 <div class="w-full md:w-1/2">
                     <div class="p-2">
-                        <div class="mb-1 text-lg">Laravel</div>
+                        <div class="mb-1 text-md uppercase text-gray-900 font-semibold">Laravel</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
                                 <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 85%"></div>
@@ -119,7 +119,7 @@
                 </div>
                 <div class="w-full md:w-1/2">
                     <div class="p-2">
-                        <div class="mb-1 text-lg">PHP</div>
+                        <div class="mb-1 text-md uppercase text-gray-900 font-semibold">PHP</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
                                 <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 90%"></div>
@@ -132,7 +132,7 @@
                 </div>
                 <div class="w-full md:w-1/2">
                     <div class="p-2">
-                        <div class="mb-1 text-lg">Tailwind</div>
+                        <div class="mb-1 text-md uppercase text-gray-900 font-semibold">Tailwind</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
                                 <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 65%"></div>
@@ -145,7 +145,7 @@
                 </div>
                 <div class="w-full md:w-1/2">
                     <div class="p-2">
-                        <div class="mb-1 text-lg">VueJs</div>
+                        <div class="mb-1 text-md uppercase text-gray-900 font-semibold">VueJs</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
                                 <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 60%"></div>
@@ -158,7 +158,7 @@
                 </div>
                 <div class="w-full md:w-1/2">
                     <div class="p-2">
-                        <div class="mb-1 text-lg">HTML/CSS</div>
+                        <div class="mb-1 text-md uppercase text-gray-900 font-semibold">HTML/CSS</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r md:h-full">
                                 <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 90%"></div>
@@ -171,7 +171,7 @@
                 </div>
                 <div class="w-full md:w-1/2">
                     <div class="p-2">
-                        <div class="mb-1 text-lg">Jquery</div>
+                        <div class="mb-1 text-md uppercase text-gray-900 font-semibold">Jquery</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r md:h-full">
                                 <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 80%"></div>
@@ -184,7 +184,7 @@
                 </div>
                 <div class="w-full md:w-1/2">
                     <div class="p-2">
-                        <div class="mb-1 text-lg">MySQL</div>
+                        <div class="mb-1 text-md uppercase text-gray-900 font-semibold">MySQL</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r md:h-full">
                                 <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 70%"></div>
@@ -197,7 +197,7 @@
                 </div>
                 <div class="w-full md:w-1/2">
                     <div class="p-2">
-                        <div class="mb-1 text-lg">Postgres</div>
+                        <div class="mb-1 text-md uppercase text-gray-900 font-semibold">Postgres</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r md:h-full">
                                 <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 60%"></div>

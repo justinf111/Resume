@@ -43,7 +43,7 @@
         <div class="inset-0 absolute bg-blue-900 opacity-50"></div>
     </div>
         <div class="bg-gray-200 py-10">
-            <div class="container mx-auto">
+            <div class="container mx-auto px-4">
                 <div class="text-2xl text-blue-600 font-bold mb-3 tracking-wide justify-center items-center flex">
                     <svg class="w-8 h-8 flex-shrink-0 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                         <path d="M14 5h2v14H4V5h2V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1zm3 0h1a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1V5zM3 5v14H2a2 2 0 0 1-2-2V7c0-1.1.9-2 2-2h1zm5-1v1h4V4H8z"/>
@@ -96,7 +96,7 @@
             </div>
         </div>
     <div class="bg-gray-100 py-10">
-        <div class="container mx-auto">
+        <div class="container mx-auto px-4">
             <div class="text-2xl text-blue-600 font-bold mb-3 tracking-wide justify-center items-center flex">
                 <svg class="w-6 h-6 flex-shrink-0 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                     <path d="M6.47 9.8A5 5 0 0 1 .2 3.22l3.95 3.95 2.82-2.83L3.03.41a5 5 0 0 1 6.4 6.68l10 10-2.83 2.83L6.47 9.8z"/>
@@ -212,7 +212,7 @@
         </div>
     </div>
         <div class="bg-gray-200 py-10">
-            <div class="container mx-auto">
+            <div class="container mx-auto px-4">
                 <div class="text-2xl text-blue-600 font-bold mb-3 tracking-wide justify-center items-center flex">
                     <svg class="w-8 h-8 flex-shrink-0 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                         <path d="M3.33 8L10 12l10-6-10-6L0 6h10v2H3.33zM0 8v8l2-2.22V9.2L0 8zm10 12l-5-3-2-1.2v-6l7 4.2 7-4.2v6L10 20z"/>

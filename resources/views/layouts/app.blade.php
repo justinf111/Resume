@@ -19,7 +19,7 @@
                     </p>
                     <div class="mt-5 sm:mt-8 flex justify-center">
                         <div class="rounded-md shadow">
-                            <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500  transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                            <a href="#contact" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500  transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
                                 <svg class="mr-2 w-4 h-4 flex-shrink-0 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                     <path d="M20 18.35V19a1 1 0 0 1-1 1h-2A17 17 0 0 1 0 3V1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8 8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 0 1 .99 1v3.35z"/>
                                 </svg>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="md:flex md:flex-wrap  -m-2">
                     <div class="md:w-1/2 flex-col p-2">
-                        <div class="px-6 py-4 p-2 bg-white rounded-md shadow-lg h-full">
+                        <div class="px-6 py-4 p-2 bg-white rounded-md shadow-lg md:h-full">
                             <div class="font-bold text-xs uppercase text-gray-700">Full Stack Web Developer</div>
                             <div class="font-bold text-gray-900 text-xl tracking-wide">Blue Glue</div>
                             <div class="text-gray-700 text-base mt-2">
@@ -66,7 +66,7 @@
                         </div>
                     </div>
                     <div class="md:w-1/2 flex-col p-2">
-                        <div class="px-6 py-4  p-2 bg-white rounded-md shadow-lg h-full">
+                        <div class="px-6 py-4  p-2 bg-white rounded-md shadow-lg md:h-full">
                             <div class="font-bold text-xs uppercase text-gray-700">Senior Web Developer</div>
                             <div class="font-bold text-gray-900 text-xl tracking-wide">Magicdust</div>
                             <div class="text-gray-700 text-base mt-2">
@@ -81,7 +81,7 @@
                         </div>
                     </div>
                     <div class="md:w-1/2 flex-col p-2">
-                        <div class="px-6 py-4 p-2 bg-white rounded-md shadow-lg h-full">
+                        <div class="px-6 py-4 p-2 bg-white rounded-md shadow-lg md:h-full">
                             <div class="font-bold text-xs uppercase text-gray-700">Full Stack Web Developer</div>
                             <div class="font-bold text-gray-900 text-xl tracking-wide">Chocolate Coded</div>
                             <div class="text-gray-700 text-base mt-2">
@@ -96,7 +96,7 @@
                         </div>
                     </div>
                     <div class="md:w-1/2 flex-col p-2">
-                        <div class="px-6 py-4 p-2 bg-white rounded-md shadow-lg h-full">
+                        <div class="px-6 py-4 p-2 bg-white rounded-md shadow-lg md:h-full">
                             <div class="font-bold text-xs uppercase text-gray-700">Wordpress/PHP Developer</div>
                             <div class="font-bold text-gray-900 text-xl tracking-wide">The Intermedia Group</div>
                             <div class="text-gray-700 text-base mt-2">
@@ -262,7 +262,7 @@
             </div>
         </div>
 
-        <div class="bg-gray-100 py-10">
+        <div class="bg-gray-100 py-10" id="contact">
             <div class="container mx-auto">
                 <div class="md:w-11/12 mx-auto">
                     <div class="text-2xl text-blue-600 font-bold mb-3 tracking-wide justify-center items-center flex">

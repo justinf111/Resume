@@ -11,7 +11,6 @@
                 <div class="text-center">
                     <img src="/img/justin.jpg" class="w-24 h-24 mx-auto rounded-full border-4 text-center border-black object-cover" alt="">
                     <span class="text-blue-700 text-2xl sm:text-3xl font-semibold">Hello, my name is</span>
-                    <br/>
                     <h2 class="tracking-tight leading-10 font-extrabold text-gray-900 text-5xl sm:text-6xl">Justin Favaloro</h2>
                     <span class="text-blue-700 text-2xl sm:text-3xl font-semibold">I'm a Full Stack Web Developer</span>
 
@@ -52,42 +51,59 @@
                 </div>
                 <div class="md:flex md:flex-wrap  -m-2">
                     <div class="md:w-1/2 flex-col p-2">
-                        <div class="px-6 py-4 p-2 bg-white rounded-md shadow-lg">
+                        <div class="px-6 py-4 p-2 bg-white rounded-md shadow-lg h-full">
                             <div class="font-bold text-xs uppercase text-gray-700">Full Stack Web Developer</div>
                             <div class="font-bold text-gray-900 text-xl tracking-wide">Blue Glue</div>
                             <div class="text-gray-700 text-base mt-2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies leo vel erat auctor vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere egestas dolor ac facilisis.
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
                             </div>
                             <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">March 2019 - Present</div>
                         </div>
                     </div>
                     <div class="md:w-1/2 flex-col p-2">
-                        <div class="px-6 py-4  p-2 bg-white rounded-md shadow-lg">
+                        <div class="px-6 py-4  p-2 bg-white rounded-md shadow-lg h-full">
                             <div class="font-bold text-xs uppercase text-gray-700">Senior Web Developer</div>
                             <div class="font-bold text-gray-900 text-xl tracking-wide">Magicdust</div>
                             <div class="text-gray-700 text-base mt-2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies leo vel erat auctor vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere egestas dolor ac facilisis.
+                                <ul>
+                                    <li>Transformed Photoshop Designs into functioning Wordpress Websites</li>
+                                    <li>Developed custom Wordpress plugins to meet the clients requirements</li>
+                                    <li>Worked with other team members to gather requirements and estimate development time for new features</li>
+                                </ul>
                             </div>
                             <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">Mar 2018 - Dec 2018</div>
 
                         </div>
                     </div>
                     <div class="md:w-1/2 flex-col p-2">
-                        <div class="px-6 py-4 p-2 bg-white rounded-md shadow-lg">
+                        <div class="px-6 py-4 p-2 bg-white rounded-md shadow-lg h-full">
                             <div class="font-bold text-xs uppercase text-gray-700">Full Stack Web Developer</div>
                             <div class="font-bold text-gray-900 text-xl tracking-wide">Chocolate Coded</div>
                             <div class="text-gray-700 text-base mt-2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies leo vel erat auctor vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere egestas dolor ac facilisis.
+                                <ul>
+                                    <li>Developed Web Applications utilising PHP Frameworks such as Zend Framework and Laravel 4/5</li>
+                                    <li>Gathered requirements and managed the workload between a team of 5 developers</li>
+                                    <li>Trained our Junior Developers in developing code with Laravel and other languages</li>
+                                    <li>Hands on experience setting up servers on AWS</li>
+                                </ul>
                             </div>
                             <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">Jun 2015 - Dec 2016</div>
                         </div>
                     </div>
                     <div class="md:w-1/2 flex-col p-2">
-                        <div class="px-6 py-4 p-2 bg-white rounded-md shadow-lg">
+                        <div class="px-6 py-4 p-2 bg-white rounded-md shadow-lg h-full">
                             <div class="font-bold text-xs uppercase text-gray-700">Wordpress/PHP Developer</div>
                             <div class="font-bold text-gray-900 text-xl tracking-wide">The Intermedia Group</div>
                             <div class="text-gray-700 text-base mt-2">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies leo vel erat auctor vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere egestas dolor ac facilisis.
+                                <ul>
+                                    <li>Built custom Wordpress plugins to suit the needs of complex requirements</li>
+                                    <li>Rebuilt websites utilising Wordpress to give our sites a fresh look</li>
+                                </ul>
                             </div>
                             <div class="text-blue-700 mt-3 text-sm font-semibold uppercase">Sep 2013 - Mar 2015</div>
                         </div>

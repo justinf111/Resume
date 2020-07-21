@@ -10,10 +10,10 @@
             <div class="relative z-10 p-16">
                 <div class="text-center">
                     <img src="/img/justin.jpg" class="w-24 h-24 mx-auto rounded-full border-4 text-center border-black object-cover" alt="">
-                    <span class="text-blue-700 text-2xl sm:text-3xl font-semibold">Hi this is</span>
+                    <span class="text-blue-700 text-2xl sm:text-3xl font-semibold">Hello, my name is</span>
                     <br/>
                     <h2 class="tracking-tight leading-10 font-extrabold text-gray-900 text-5xl sm:text-6xl">Justin Favaloro</h2>
-                    <span class="text-blue-700 text-2xl sm:text-3xl font-semibold">Full Stack Web Developer</span>
+                    <span class="text-blue-700 text-2xl sm:text-3xl font-semibold">I'm a Full Stack Web Developer</span>
 
                     <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
 
@@ -255,7 +255,30 @@
                         </svg>
                         Contact
                     </div>
-                    <div class="md:flex">
+                    <div class="md:flex md:flex-row-reverse">
+                        <div class="sm:w-1/2 p-4">
+                            <div class="text-gray-900 mb-4">
+                                If you'd like to hire me or want to hear more about my experience and knowledge you can contact me via email or phone.
+                            </div>
+                            <div class="text-gray-900 flex items-center text-md mb-4">
+                                <svg class="w-5 h-5 flex-shrink-0 text-blue-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                    <path d="M20 18.35V19a1 1 0 0 1-1 1h-2A17 17 0 0 1 0 3V1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8 8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 0 1 .99 1v3.35z"/>
+                                </svg>
+                                0425455602
+                            </div>
+                            <div class="text-gray-900 flex items-center text-md mb-4">
+                                <svg class="w-5 h-5 flex-shrink-0 text-blue-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                    <path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"/>
+                                </svg>
+                                justin_f_111@hotmail.com
+                            </div>
+                            <div class="text-gray-900 flex items-center text-md">
+                                <svg class="w-5 h-5 flex-shrink-0 text-blue-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                    <path d="M0 0l6 4 8-4 6 4v16l-6-4-8 4-6-4V0zm7 6v11l6-3V3L7 6z"/>
+                                </svg>
+                                Cherrybrook, NSW, Australia
+                            </div>
+                        </div>
                         <div class="md:w-1/2 p-4">
                             <div class="mb-2">
                                 <input type="text" placeholder="Name" name="name" class="rounded-md border-gray-100 border shadow-sm w-full py-3 px-4 focus:outline-none">
@@ -275,22 +298,8 @@
                                 <input type="submit" class="px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500  transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10 focus:outline-none">
                             </div>
                         </div>
-                        <div class="sm:w-1/2 p-4">
-                            <div class="text-gray-900 flex font-semibold text-md mb-4">
-                                <svg class="w-6 h-6 flex-shrink-0 text-blue-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                                    <path d="M20 18.35V19a1 1 0 0 1-1 1h-2A17 17 0 0 1 0 3V1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8 8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 0 1 .99 1v3.35z"/>
-                                </svg>
-                                0425455602
-                            </div>
-                            <div class="text-gray-900 flex font-semibold text-md">
-                                <svg class="w-6 h-6 flex-shrink-0 text-blue-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                                    <path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"/>
-                                </svg>
-                                justin_f_111@hotmail.com
-                                <example-component></example-component>
-                            </div>
-                        </div>
                     </div>
+
                 </div>
             </div>
         </div>

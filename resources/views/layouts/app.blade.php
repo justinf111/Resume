@@ -28,7 +28,7 @@
                             </a>
                         </div>
                         <div class="mt-0 ml-3">
-                            <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-blue-700 bg-blue-100 hover:text-blue-600 hover:bg-blue-50 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                            <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-blue-700 bg-gray-100 hover:text-blue-600 hover:bg-blue-100 focus:outline-none transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
                                 <svg class="mr-2 w-5 h-5 flex-shrink-0 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                     <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/>
                                 </svg>
@@ -50,7 +50,7 @@
                     </svg>
                     Experience
                 </div>
-                <div class="md:flex md:flex-wrap  md:-m-2">
+                <div class="md:flex md:flex-wrap  -m-2">
                     <div class="md:w-1/2 flex-col p-2">
                         <div class="px-6 py-4 p-2 bg-white rounded-md shadow-lg">
                             <div class="font-bold text-xs uppercase text-gray-700">Full Stack Web Developer</div>
@@ -103,10 +103,10 @@
                 </svg>
                 Skills
             </div>
-            <div class="sm:flex sm:flex-wrap sm:-m-2">
+            <div class="sm:flex sm:flex-wrap -m-4">
                 <div class="w-full md:w-1/2">
-                    <div class="p-2">
-                        <div class="mb-1 text-md uppercase text-gray-900 font-semibold">Laravel</div>
+                    <div class="py-2 px-4">
+                        <div class="text-sm uppercase text-gray-900 font-semibold">Laravel</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
                                 <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 85%"></div>
@@ -118,8 +118,8 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
-                    <div class="p-2">
-                        <div class="mb-1 text-md uppercase text-gray-900 font-semibold">PHP</div>
+                    <div class="py-2 px-4">
+                        <div class="text-sm uppercase text-gray-900 font-semibold">PHP</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
                                 <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 90%"></div>
@@ -131,8 +131,8 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
-                    <div class="p-2">
-                        <div class="mb-1 text-md uppercase text-gray-900 font-semibold">Tailwind</div>
+                    <div class="py-2 px-4">
+                        <div class="mb-1 text-sm uppercase text-gray-900 font-semibold">Tailwind</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
                                 <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 65%"></div>
@@ -144,8 +144,8 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
-                    <div class="p-2">
-                        <div class="mb-1 text-md uppercase text-gray-900 font-semibold">VueJs</div>
+                    <div class="py-2 px-4">
+                        <div class="text-sm uppercase text-gray-900 font-semibold">VueJs</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r">
                                 <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 60%"></div>
@@ -157,8 +157,8 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
-                    <div class="p-2">
-                        <div class="mb-1 text-md uppercase text-gray-900 font-semibold">HTML/CSS</div>
+                    <div class="py-2 px-4">
+                        <div class="text-sm uppercase text-gray-900 font-semibold">HTML/CSS</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r md:h-full">
                                 <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 90%"></div>
@@ -170,8 +170,8 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
-                    <div class="p-2">
-                        <div class="mb-1 text-md uppercase text-gray-900 font-semibold">Jquery</div>
+                    <div class="py-2 px-4">
+                        <div class="text-sm uppercase text-gray-900 font-semibold">Jquery</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r md:h-full">
                                 <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 80%"></div>
@@ -183,8 +183,8 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
-                    <div class="p-2">
-                        <div class="mb-1 text-md uppercase text-gray-900 font-semibold">MySQL</div>
+                    <div class="py-2 px-4">
+                        <div class="text-sm uppercase text-gray-900 font-semibold">MySQL</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r md:h-full">
                                 <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 70%"></div>
@@ -196,8 +196,8 @@
                     </div>
                 </div>
                 <div class="w-full md:w-1/2">
-                    <div class="p-2">
-                        <div class="mb-1 text-md uppercase text-gray-900 font-semibold">Postgres</div>
+                    <div class="py-2 px-4">
+                        <div class="text-sm uppercase text-gray-900 font-semibold">Postgres</div>
                         <div class="flex items-center">
                             <div class="shadow w-full h-2 bg-gray-200 mr-3 rounded-r md:h-full">
                                 <div class="bg-blue-700 text-xs leading-none py-1 text-center rounded-l text-white h-1" style="width: 60%"></div>
@@ -219,7 +219,7 @@
                     </svg>
                     Eduction
                 </div>
-                <div class="sm:flex sm:flex-wrap sm:-m-2">
+                <div class="sm:flex sm:flex-wrap -m-2">
                         <div class="sm:w-1/2 lg:w-1/3 flex-col p-2">
                             <div class="bg-white rounded-md shadow-lg px-6 py-4 sm:h-full">
                                 <div class="font-bold text-xs uppercase text-gray-700">Certificate 3 & 4 in Fitness</div>
@@ -247,39 +247,49 @@
         </div>
 
         <div class="bg-gray-100 py-10">
-            <div class="container mx-auto w-8/12">
-                <div class="text-2xl text-blue-600 font-bold mb-3 tracking-wide justify-center items-center flex">
-                    <svg class="w-8 h-8 flex-shrink-0 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                        <path d="M20 18.35V19a1 1 0 0 1-1 1h-2A17 17 0 0 1 0 3V1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8 8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 0 1 .99 1v3.35z"/>
-                    </svg>
-                    Contact
-                </div>
-                <div class="sm:flex">
-                    <div class="sm:w-1/2 sm:-m-2">
-                        <div class="p-2">
+            <div class="container mx-auto">
+                <div class="md:w-11/12 mx-auto">
+                    <div class="text-2xl text-blue-600 font-bold mb-3 tracking-wide justify-center items-center flex">
+                        <svg class="w-8 h-8 flex-shrink-0 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            <path d="M20 18.35V19a1 1 0 0 1-1 1h-2A17 17 0 0 1 0 3V1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8 8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 0 1 .99 1v3.35z"/>
+                        </svg>
+                        Contact
+                    </div>
+                    <div class="md:flex">
+                        <div class="md:w-1/2 p-4">
                             <div class="mb-2">
-                                <input type="text" placeholder="Name" name="name" class="rounded-md border-gray-300 w-full py-3 px-4">
+                                <input type="text" placeholder="Name" name="name" class="rounded-md border-gray-100 border shadow-sm w-full py-3 px-4 focus:outline-none">
                             </div>
                             <div class="sm:flex">
                                 <div class="mb-2 sm:mr-3 sm:w-1/2">
-                                    <input type="email" placeholder="Email" name="email" class="rounded-md border-gray-300 w-full py-3 px-4">
+                                    <input type="email" placeholder="Email" name="email" class="rounded-md border-gray-100 border shadow-sm w-full py-3 px-4 focus:outline-none">
                                 </div>
                                 <div class="mb-2 sm:w-1/2">
-                                    <input type="text" placeholder="Phone" name="phone" class="rounded-md border-gray-300 w-full py-3 px-4">
+                                    <input type="text" placeholder="Phone" name="phone" class="rounded-md border-gray-100 border shadow-sm w-full py-3 px-4 focus:outline-none">
                                 </div>
                             </div>
                             <div class="mb-2">
-                                <textarea name="message" placeholder="Message" rows="5" class="rounded-md border-gray-300 w-full py-3 px-4"></textarea>
+                                <textarea name="message" placeholder="Message" rows="5" class="rounded-md border-gray-100 border shadow-sm w-full py-3 px-4 focus:outline-none"></textarea>
                             </div>
                             <div class="mb-2">
-                                <input type="submit" class="rounded-md bg-blue-600 text-white border-gray-300 w-full py-3 px-4">
+                                <input type="submit" class="px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500  transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10 focus:outline-none">
                             </div>
                         </div>
-
-                    </div>
-                    <div class="sm:w-1/2">
-                        <div>0425455602</div>
-                        <div>justin_f_111@hotmail.com</div>
+                        <div class="sm:w-1/2 p-4">
+                            <div class="text-gray-900 flex font-semibold text-md mb-4">
+                                <svg class="w-6 h-6 flex-shrink-0 text-blue-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                    <path d="M20 18.35V19a1 1 0 0 1-1 1h-2A17 17 0 0 1 0 3V1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8 8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 0 1 .99 1v3.35z"/>
+                                </svg>
+                                0425455602
+                            </div>
+                            <div class="text-gray-900 flex font-semibold text-md">
+                                <svg class="w-6 h-6 flex-shrink-0 text-blue-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                    <path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"/>
+                                </svg>
+                                justin_f_111@hotmail.com
+                                <example-component></example-component>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

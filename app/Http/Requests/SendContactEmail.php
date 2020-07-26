@@ -13,7 +13,7 @@ class SendContactEmail extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -23,9 +23,11 @@ class SendContactEmail extends FormRequest
      */
     public function rules()
     {
+        $this->redirect = url()->previous() . '#contact';
+
         return [
             'name' => 'required',
-            'phone' => 'required|phone',
+            'phone' => 'required|numeric',
             'email' => 'required|email',
             'message' => 'required'
         ];

@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title></title>
+        <title>Justin Favaloro</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{url('/css/app.css')}}">
     </head>
@@ -124,10 +124,10 @@
             </div>
         </div>
 
-        <div class="bg-gray-100 py-10" id="contact">
+        <div class="bg-gray-900 py-10" id="contact">
             <div class="container mx-auto">
                 <div class="md:w-11/12 mx-auto">
-                    <div class="text-2xl text-blue-600 font-bold mb-3 tracking-wide justify-center items-center flex">
+                    <div class="text-2xl text-blue-300 font-bold mb-3 tracking-wide justify-center items-center flex">
                         <svg class="w-8 h-8 flex-shrink-0 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                             <path d="M20 18.35V19a1 1 0 0 1-1 1h-2A17 17 0 0 1 0 3V1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8 8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 0 1 .99 1v3.35z"/>
                         </svg>
@@ -135,46 +135,54 @@
                     </div>
                     <div class="md:flex md:flex-row-reverse">
                         <div class="md:w-1/2 py-2 px-4">
-                            <div class="text-gray-900 mb-4">
+                            <div class="text-gray-100 mb-4">
                                 If you'd like to hire me or want to hear more about my experience and knowledge you can contact me via email or phone.
                             </div>
-                            <div class="text-gray-900 flex items-center text-md mb-4">
-                                <svg class="w-5 h-5 flex-shrink-0 text-blue-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            <div class="text-gray-100 flex items-center text-md mb-4">
+                                <svg class="w-5 h-5 flex-shrink-0 text-blue-300 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                     <path d="M20 18.35V19a1 1 0 0 1-1 1h-2A17 17 0 0 1 0 3V1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8 8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 0 1 .99 1v3.35z"/>
                                 </svg>
                                 0425455602
                             </div>
-                            <div class="text-gray-900 flex items-center text-md mb-4">
-                                <svg class="w-5 h-5 flex-shrink-0 text-blue-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            <div class="text-gray-100 flex items-center text-md mb-4">
+                                <svg class="w-5 h-5 flex-shrink-0 text-blue-300 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                     <path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"/>
                                 </svg>
                                 justin_f_111@hotmail.com
                             </div>
-                            <div class="text-gray-900 flex items-center text-md">
-                                <svg class="w-5 h-5 flex-shrink-0 text-blue-600 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            <div class="text-gray-100 flex items-center text-md">
+                                <svg class="w-5 h-5 flex-shrink-0 text-blue-300 fill-current mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                     <path d="M0 0l6 4 8-4 6 4v16l-6-4-8 4-6-4V0zm7 6v11l6-3V3L7 6z"/>
                                 </svg>
                                 Cherrybrook, NSW, Australia
                             </div>
                         </div>
                         <div class="md:w-1/2 px-4 py-2">
-                            <div class="mb-2">
-                                <input type="text" placeholder="Name" name="name" class="rounded-md border-gray-100 border shadow-sm w-full py-3 px-4 focus:outline-none">
-                            </div>
-                            <div class="sm:flex">
-                                <div class="mb-2 sm:mr-3 sm:w-1/2">
-                                    <input type="email" placeholder="Email" name="email" class="rounded-md border-gray-100 border shadow-sm w-full py-3 px-4 focus:outline-none">
+                            <form action="/contact" method="post">
+                                @csrf
+                                <div class="mb-2">
+                                    <input type="text" placeholder="Name" name="name" class="rounded-md {{$errors->has('name') ? 'border-red-600' : 'border-gray-100'}} border shadow-sm w-full py-3 px-4 focus:outline-none ">
+                                    <div class="text-red-600">{{ $errors->first('name') }}</div>
                                 </div>
-                                <div class="mb-2 sm:w-1/2">
-                                    <input type="text" placeholder="Phone" name="phone" class="rounded-md border-gray-100 border shadow-sm w-full py-3 px-4 focus:outline-none">
+                                <div class="sm:flex">
+                                    <div class="mb-2 sm:mr-3 sm:w-1/2">
+                                        <input type="email" placeholder="Email" name="email" class="rounded-md {{$errors->has('email') ? 'border-red-600' : 'border-gray-100'}} border shadow-sm w-full py-3 px-4 focus:outline-none">
+                                        <div class="text-red-600">{{ $errors->first('email') }}</div>
+                                    </div>
+                                    <div class="mb-2 sm:w-1/2">
+                                        <input type="text" placeholder="Phone" name="phone" class="rounded-md {{$errors->has('phone') ? 'border-red-600' : 'border-gray-100'}} border shadow-sm w-full py-3 px-4 focus:outline-none">
+                                        <div class="text-red-600">{{ $errors->first('phone') }}</div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="mb-2">
-                                <textarea name="message" placeholder="Message" rows="5" class="rounded-md border-gray-100 border shadow-sm w-full py-3 px-4 focus:outline-none"></textarea>
-                            </div>
-                            <div class="mb-2">
-                                <input type="submit" class="px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500  transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10 focus:outline-none">
-                            </div>
+                                <div class="mb-2">
+                                    <textarea name="message" placeholder="Message" rows="5" class="rounded-md {{$errors->has('message') ? 'border-red-600' : 'border-gray-100'}} border shadow-sm w-full py-3 px-4 focus:outline-none"></textarea>
+                                    <div class="text-red-600">{{ $errors->first('message') }}</div>
+                                </div>
+                                <div class="mb-2">
+                                    <input type="submit" class="px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500  transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10 focus:outline-none">
+                                </div>
+                            </form>
+
                         </div>
                     </div>
 

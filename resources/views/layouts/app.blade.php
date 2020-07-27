@@ -178,8 +178,11 @@
                                     <textarea name="message" placeholder="Message" rows="5" class="rounded-md {{$errors->has('message') ? 'border-red-600' : 'border-gray-100'}} border shadow-sm w-full py-3 px-4 focus:outline-none">{{ old('message') }}</textarea>
                                     <div class="text-red-600">{{ $errors->first('message') }}</div>
                                 </div>
-                                <div class="mb-2">
-                                    <input type="submit" class="px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500  transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10 focus:outline-none">
+                                <div class="mb-2 sm:flex sm:items-center sm:flex-wrap">
+                                    <input type="submit" class="flex-shrink-0 w-full xl:w-auto px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500  transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10 focus:outline-none">
+                                    @if (Session::has('success'))
+                                        <div class="mt-1 xl:mt-0 xl:ml-4 text-green-300">{{ Session::get('success') }}</div>
+                                    @endif
                                 </div>
                             </form>
 

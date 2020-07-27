@@ -28,7 +28,7 @@
                                 </a>
                             </div>
                             <div class="mt-0 ml-3">
-                                <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-blue-700 bg-gray-100 hover:text-blue-600 hover:bg-blue-100 focus:outline-none transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                                <a href="/justin-favaloro-resume.docx" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-blue-700 bg-gray-100 hover:text-blue-600 hover:bg-blue-100 focus:outline-none transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
                                     <svg class="mr-2 w-5 h-5 flex-shrink-0 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                         <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/>
                                     </svg>
@@ -161,21 +161,21 @@
                             <form action="/contact" method="post">
                                 @csrf
                                 <div class="mb-2">
-                                    <input type="text" placeholder="Name" name="name" class="rounded-md {{$errors->has('name') ? 'border-red-600' : 'border-gray-100'}} border shadow-sm w-full py-3 px-4 focus:outline-none ">
+                                    <input type="text" value="{{ old('name') }}" placeholder="Name" name="name" class="rounded-md {{$errors->has('name') ? 'border-red-600' : 'border-gray-100'}} border shadow-sm w-full py-3 px-4 focus:outline-none ">
                                     <div class="text-red-600">{{ $errors->first('name') }}</div>
                                 </div>
                                 <div class="sm:flex">
                                     <div class="mb-2 sm:mr-3 sm:w-1/2">
-                                        <input type="email" placeholder="Email" name="email" class="rounded-md {{$errors->has('email') ? 'border-red-600' : 'border-gray-100'}} border shadow-sm w-full py-3 px-4 focus:outline-none">
+                                        <input type="email" value="{{ old('email') }}" placeholder="Email" name="email" class="rounded-md {{$errors->has('email') ? 'border-red-600' : 'border-gray-100'}} border shadow-sm w-full py-3 px-4 focus:outline-none">
                                         <div class="text-red-600">{{ $errors->first('email') }}</div>
                                     </div>
                                     <div class="mb-2 sm:w-1/2">
-                                        <input type="text" placeholder="Phone" name="phone" class="rounded-md {{$errors->has('phone') ? 'border-red-600' : 'border-gray-100'}} border shadow-sm w-full py-3 px-4 focus:outline-none">
+                                        <input type="text" value="{{ old('phone') }}" placeholder="Phone" name="phone" class="rounded-md {{$errors->has('phone') ? 'border-red-600' : 'border-gray-100'}} border shadow-sm w-full py-3 px-4 focus:outline-none">
                                         <div class="text-red-600">{{ $errors->first('phone') }}</div>
                                     </div>
                                 </div>
                                 <div class="mb-2">
-                                    <textarea name="message" placeholder="Message" rows="5" class="rounded-md {{$errors->has('message') ? 'border-red-600' : 'border-gray-100'}} border shadow-sm w-full py-3 px-4 focus:outline-none"></textarea>
+                                    <textarea name="message" placeholder="Message" rows="5" class="rounded-md {{$errors->has('message') ? 'border-red-600' : 'border-gray-100'}} border shadow-sm w-full py-3 px-4 focus:outline-none">{{ old('message') }}</textarea>
                                     <div class="text-red-600">{{ $errors->first('message') }}</div>
                                 </div>
                                 <div class="mb-2">

@@ -29,6 +29,7 @@ class ContactFormSent extends Mailable
      */
     public function build()
     {
-        return $this->subject('Web Enquiry from '.$this->data['name'])->markdown('email.contact');
+        return $this->subject('Web Enquiry from '.$this->data['name'])
+                    ->markdown('email.contact');
     }
 }

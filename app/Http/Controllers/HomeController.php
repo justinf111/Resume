@@ -43,9 +43,9 @@ class HomeController extends Controller
                     'company' => 'Blue Glue',
                     'time_period' => 'MARCH 2019 - PRESENT',
                     'description' => [
-                        'Utilised version control (GIT/Bitbucket) to manage code base within the team and review eachothers code before deployment',
-                        'Demonstrated my eagerness to learn by attending Laracon and working through online training for our technologies',
-                        'Demonstrated my customer service skills by quickly resolving clients issues, and seeking extra assistance when required',
+                        'Demonstrated quality management via using version control (GIT/Bitbucket) to manage the code base within the team and review each other’s code before deployment',
+                        'Demonstrated eagerness to learn by attending Laracon and participating in online training for new technologies',
+                        'Provided high customer service by attending to client needs, quickly resolving issues and seeking extra assistance as required',
                         'Worked within a team of 5 to implement new features for our access control system which is built on Laravel 5.4/5.5'
                     ]
                 ],
@@ -55,10 +55,9 @@ class HomeController extends Controller
                     'company' => 'Chocolate Coded',
                     'time_period' => 'JUN 2015 - DEC 2016',
                     'description' => [
-                        'Developed Web Applications utilising PHP Frameworks such as Zend Framework and Laravel 4/5',
-                        'Demonstrated leadership by gathered requirements and managed the workload between a team of 5 developers',
-                        'Trained our Junior Developers in developing code with Laravel and other languages',
-                        'Hands on experience setting up servers on AWS'
+                        'Extensive knowledge of PHP Frameworks such as Zend Framework and Laravel 4/5 important in the development of Web Applications',
+                        'Demonstrated leadership by managing team of 5 developers and providing team members with training in code development',
+                        'Completed basic AWS Training and got direct experience in setting up server infrastructure for our projects',
                     ]
                 ],
                 [
@@ -66,8 +65,8 @@ class HomeController extends Controller
                     'company' => 'Magicdust',
                     'time_period' => 'MAR 2018 - DEC 2018',
                     'description' => [
-                        'Transformed Photoshop Designs into functioning Wordpress Websites',
-                        'Developed custom Wordpress plugins to meet the clients requirements',
+                        'Demonstrated Teamwork by working with UX designers to transform Photoshop Designs into functioning WordPress Websites',
+                        'Developed custom WordPress plugins to meet the client’s complex requirements',
                         'Worked with other team members to gather requirements and estimate development time for new features',
                     ]
                 ],
@@ -76,9 +75,10 @@ class HomeController extends Controller
                     'company' => 'The Intermedia Group',
                     'time_period' => 'SEP 2013 - MAR 2015',
                     'description' => [
-                        'Built custom Wordpress plugins to suit the needs of complex requirements',
-                        'Rebuilt websites utilising Wordpress to give our sites a fresh look',
-                        'Developed APIs to integrate our old systems with the new websites'
+                        'Demonstrated innovation by building custom WordPress plugins to meet the needs of complex requirements',
+                        'Demonstrated creativity by rebuilding websites using WordPress to improve aesthetics/adapt to the evolving needs of the client',
+                        'Demonstrated adaptability by developing APIs to integrate our old systems with the new websites',
+
                     ]
                 ],
 
